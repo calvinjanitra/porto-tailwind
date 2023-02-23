@@ -23,10 +23,7 @@ const Music = () => {
                             '>
                                 Check Out My Music Cover!{' '}
                             </h2>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis accusantium accusamus quidem ipsa earum consequuntur quas labore corporis reiciendis, similique, cupiditate tenetur vel itaque quia. Odio,
-                                voluptatum. Laboriosam, assumenda perferendis!
-                            </p>
+                            <p>Covering my hobbies in music fields</p>
                         </div>
                         <div className='flex flex-col lg:flex-row'>
                             <motion.div variants={fadeIn('right', 0.3)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='group relative overflow-hidden border-2 border-white/50 rounded-xl m-2'>
