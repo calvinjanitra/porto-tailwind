@@ -20,7 +20,7 @@ const App = () => {
             <Work />
             <Music />
             <Contact />
-            <div className='h-[4000px]'></div>
+            {/* <div className='h-[960px]'></div> */}
         </div>
     )
 }
