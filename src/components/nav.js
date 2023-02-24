@@ -1,6 +1,6 @@
 import React from 'react'
 import { BiHomeAlt, BiUser } from 'react-icons/bi'
-import { BsClipboardData, BsBriefcase, BsChatSquare } from 'react-icons/bs'
+import { BsClipboardData, BsChatSquare, BsMusicNoteBeamed } from 'react-icons/bs'
 import { Link } from 'react-scroll'
 
 const Nav = () => {
@@ -18,7 +18,7 @@ const Nav = () => {
                         <BsClipboardData />
                     </Link>
                     <Link to='music' className='cursor-pointer w-[60px] h-[60px] flex justify-center items-center' activeClass='active' smooth={true} spy={true}>
-                        <BsBriefcase />
+                        <BsMusicNoteBeamed />
                     </Link>
                     <Link to='contact' className='cursor-pointer w-[60px] h-[60px] flex justify-center items-center' activeClass='active' smooth={true} spy={true}>
                         <BsChatSquare />

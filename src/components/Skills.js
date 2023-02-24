@@ -2,6 +2,7 @@ import React from 'react'
 import { BsArrowUpRight } from 'react-icons/bs'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../variants'
+import { Link } from 'react-scroll'
 
 const skills = [
     {
@@ -36,10 +37,9 @@ const Skills = () => {
                     '>
                         <h2 className='h2 text-accent mb-6'>My Skills</h2>
                         <h3 className='h3 max-w-[455px] mb-16'>I am currently on 4th semester of Informatics Engineering</h3>
-                        <a href='#work'>
-                            {' '}
+                        <Link to='work' smooth={true} spy={true}>
                             <button className='btn btn-sm'>See My Projects</button>
-                        </a>
+                        </Link>
                         <img src='' alt='' />
                     </div>
                     <div className='flex-1'>

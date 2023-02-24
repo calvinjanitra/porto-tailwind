@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../variants'
-
+import { Link } from 'react-scroll'
 const Banner = () => {
     return (
         <section id='home' className='min-h-[80vh] mt-14 lg:mt-8 lg:min-h-[78vh] flex items-center lg:mb-8'>
