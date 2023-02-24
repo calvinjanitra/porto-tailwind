@@ -4,7 +4,7 @@ import { fadeIn } from '../variants'
 import Image1 from '../assets/todolist.png'
 import Image2 from '../assets/movielist.png'
 import Image3 from '../assets/onlinestore.png'
-
+import Image4 from '../assets/lurubatik.png'
 const Work = () => {
     return (
         <section id='work' className='section mt-[128px]'>
@@ -37,10 +37,10 @@ const Work = () => {
                                     <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                                     <img className='group-hover:scale-125 transition-all duration-500' src={Image2} alt='' />
                                     <div className='absolute -bottom-full left-16 group-hover:bottom-24 transition-all duration-500 z-50'>
-                                        <span className='text-gradient text-2xl'>Simple To-Do List</span>
+                                        <span className='text-gradient text-2xl'>Movie List</span>
                                     </div>
                                     <div className='absolute -bottom-full left-16 group-hover:bottom-12 transition-all duration-500 z-50'>
-                                        <span className='text-xl'>Using ReactJS</span>
+                                        <span className='text-xl'>Using ReactJS and API for BackEnd</span>
                                     </div>
                                 </motion.div>
                             </a>
@@ -60,12 +60,12 @@ const Work = () => {
                             </a>
                             <motion.div variants={fadeIn('right', 0.5)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='group relative overflow-hidden border-2 border-white/50 rounded-xl m-2'>
                                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-                                <img className='group-hover:scale-125 transition-all duration-500' src={Image1} alt='' />
+                                <img className='group-hover:scale-125 transition-all duration-500' src={Image4} alt='' />
                                 <div className='absolute -bottom-full left-16 group-hover:bottom-24 transition-all duration-500 z-50'>
-                                    <span className='text-gradient text-2xl'>Online Store</span>
+                                    <span className='text-gradient text-2xl'>Luru Batik</span>
                                 </div>
                                 <div className='absolute -bottom-full left-16 group-hover:bottom-12 transition-all duration-500 z-50'>
-                                    <span className='text-xl'>Using HTML, CSS, and Framework Bootstraps</span>
+                                    <span className='text-xl'>Classical RPG Game made using Java</span>
                                 </div>
                             </motion.div>
                         </div>
