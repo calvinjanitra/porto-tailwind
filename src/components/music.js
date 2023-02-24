@@ -16,10 +16,10 @@ const Music = () => {
         <section id='music' className='section mt-[128px]'>
             <div className='container mx-auto mt-[100px]'>
                 <div>
-                    <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
+                    <div className='flex-1 flex flex-col gap-y-4 mb-10 lg:mb-0'>
                         <div>
                             <h2
-                                className='h2 leading-tight text-accent
+                                className='h3 text-4xl leading-tight text-accent
                             '>
                                 Check Out My Music Cover!{' '}
                             </h2>

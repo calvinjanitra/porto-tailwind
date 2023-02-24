@@ -8,12 +8,12 @@ import Image4 from '../assets/lurubatik.png'
 const Work = () => {
     return (
         <section id='work' className='section mt-[128px]'>
-            <div className='container mx-auto mt-[60px]'>
+            <div className='container mx-auto mt-[64px]'>
                 <div>
                     <div className='flex-1 flex flex-col gap-y-8 mb-10 lg:mb-0'>
                         <div>
                             <h2
-                                className='h2 leading-tight text-accent
+                                className='h3 text-4xl leading-tight text-accent
                             '>
                                 My Latest Work{' '}
                             </h2>
