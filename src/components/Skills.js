@@ -7,7 +7,7 @@ import { Link } from 'react-scroll'
 const skills = [
     {
         name: 'Front-End Developer',
-        description: 'Using HTML and CSS as Front-End. Also able to use Framework such as Bootstrap, Tailwindcss',
+        description: 'Using HTML, CSS, Javascript, Typescript. Also able to use Framework such as ReactJS, NextJS, Bootstrap, Tailwindcss',
         link: 'Learn more',
     },
     {
@@ -32,13 +32,13 @@ const Skills = () => {
         <section id='skills' className='section'>
             <div className='container mx-auto'>
                 <div className='flex flex-col lg:flex-row'>
-                    <motion.div variants={fadeIn('right', 0.3)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
+                    <motion.div variants={fadeIn('right', 0.3)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mb-12 lg:mb-0'>
                         <h2 className='h2 text-accent mb-6'>My Skills</h2>
                         <h3 className='h3 max-w-[455px] mb-16'>I am currently on 4th semester of Informatics Engineering</h3>
                         <Link to='work' smooth={true} spy={true}>
                             <button className='btn btn-sm'>See My Projects</button>
                         </Link>
-                        <img src='' alt='' />
+                        {/* <img src='' alt='' /> */}
                     </motion.div>
                     <div className='flex-1'>
                         <div>
