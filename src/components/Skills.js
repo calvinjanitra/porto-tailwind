@@ -1,8 +1,8 @@
-import React from 'react'
-import { BsArrowUpRight } from 'react-icons/bs'
-import { motion } from 'framer-motion'
-import { fadeIn } from '../variants'
-import { Link } from 'react-scroll'
+import React from 'react';
+import { BsArrowUpRight } from 'react-icons/bs';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../variants';
+import { Link } from 'react-scroll';
 
 const skills = [
     {
@@ -25,7 +25,7 @@ const skills = [
         description: 'Using Java to make Application and 2D Game',
         link: 'Learn more',
     },
-]
+];
 
 const Skills = () => {
     return (
@@ -43,7 +43,7 @@ const Skills = () => {
                     <div className='flex-1'>
                         <div>
                             {skills.map((service, index) => {
-                                const { name, description, link } = service
+                                const { name, description, link } = service;
                                 return (
                                     <motion.div
                                         variants={fadeIn('up', 0.4)}
@@ -58,14 +58,14 @@ const Skills = () => {
                                         </div>
                                         {/* <div>Link</div> */}
                                     </motion.div>
-                                )
+                                );
                             })}
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default Skills
+export default Skills;
